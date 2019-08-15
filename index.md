@@ -1,8 +1,33 @@
-## Welcome to GitHub Pages
+## Dicom คืออะไร
 
-You can use the [editor on GitHub](https://github.com/justpluem/techxray.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+DICOM  เป็นชนิดภาพของเอกซเรย์ ?
+เมื่อเราพูดถึงเรื่องของเอกซเรย์ดิจิตอลแล้วนั้น แน่นอนว่าจะมีคำศัพท์คำหนึ่ง
+ที่มักจะถูกพูดถึงกันอยู่บ่อยๆ ครับนั้นคือคำว่า ” Dicom (ไดคอม) “ ซึ่งหลายคนอาจจะรู้จักแค่ว่า
+Dicom คือ ชนิดภาพของเอกซเรย์ แต่จริงๆ แล้วนั้น Dicom มีความสำคัญมากกว่านั้น
+และไม่ได้เป็นแค่ชนิดภาพของเอกซเรย์เพียงอย่างเดียวครับ เรามาเริ่มรู้จักคำว่า Dicom กันจริงๆ ดีกว่าครับ
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ 
+
+DICOM  คืออะไร
+DICOM นั้นย่อมาจากคำว่า “ Digital Imaging and Communications in Medicine”
+ซึ่งเป็นมาตรฐานสำหรับการจัดการ, การจัดเก็บ, การพิมพ์และการส่งข้อมูลแลกเปลี่ยน
+ในการถ่ายภาพทางการแพทย์ เช่น CR , DR , MRI
+
+โดย DICOM นั้น มีต้นกำเนิดและพัฒนาขึ้นโดย National Electrical Manufacturers Association
+(NEMA) ,วิทยาลัยอเมริกันรังสีวิทยาสำหรับเอกซเรย์คอมพิวเตอร์ตามแนวแกน (CAT) และ
+การถ่ายภาพด้วยคลื่นสนามแม่เหล็ก(MRI) ซึ่งในขณะนี้นั้น Dicom ถูกควบคุมและดูแลโดย
+DICOM Standards Committee หรือที่รู้จักในนาม คณะกรรมการมาตรฐาน DICOM นั้นเองครับ
+
+ 
+
+DICOM  มีประโยชน์อย่างไร
+ 
+
+ปัจจุบัน DICOM ถูกนำมาเป็นมาตราฐานในการควบคุมการถ่ายภาพทางรังสีแบบดิจิตอล
+ทั้ง radiology, cardiology , orthopedic และ dentistry ซึ่งก็ทำให้การถ่ายภาพทางรังสี
+ที่ต่างเครื่องมือ ต่างโรงพยาบาลนั้นสามารถที่จะสื่อสารและแลกเปลี่ยนข้อมูลซึ่งกันและกันได้
+นอกจากนี้แล้วนั้นแล้ว ยังสามารถเข้ามาควบคุมกระบวนการพัฒนาของบริษัทต่างๆ
+ที่ผลิตซอฟแวร์ทางด้านเอกซเรย์ให้มีมาตราฐานอีกด้วย
 
 ### Markdown
 
