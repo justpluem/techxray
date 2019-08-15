@@ -29,34 +29,33 @@ DICOM  มีประโยชน์อย่างไร
 นอกจากนี้แล้วนั้นแล้ว ยังสามารถเข้ามาควบคุมกระบวนการพัฒนาของบริษัทต่างๆ
 ที่ผลิตซอฟแวร์ทางด้านเอกซเรย์ให้มีมาตราฐานอีกด้วย
 
-### Markdown
+### รู้จักกับระบบ PACS
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#PACS คืออะไร
+PACS ย่อมาจาก picture archiving and communication system คือ ระบบที่ใช้ในการจัดเก็บรูปภาพและรับส่งข้อมูลทางการแพทย์ผ่านเครือข่ายระบบ Network
 
-```markdown
-Syntax highlighted code block
+#PACS ทำหน้าที่อะไร
+ระบบ PACS นั้นเป็นระบบที่เราใช้ในการเก็บภาพทางการแพทย์ ไม่ว่าจะเป็นภาพเอกซเรย์ร่างกายและฟัน อัลตร้าซาวด์ ภาพจากการตรวจ BMD ภาพจากการตรวจ CT หรือ PACS บางระบบสามารถที่จะเก็บไฟล์ PDF ไฟล์เสียง ไฟล์วีดีโอหรือไฟล์ JPG ได้อีกด้วย ซึ่งกระบวนการทำงานของ PACS นั้นก็มีเพียง 2 ขั้นตอน คือทำหน้าที่เป็นตัวกลางในการรับภาพเอกซเรย์จากเครื่องมือเอกซเรย์เพื่อจัดเก็บลงบนพื้นที่จัดเก็บของระบบ และส่งภาพเอกซเรย์ที่ถูกจัดเก็บแล้วนั้นไปให้กับเครื่องลูกข่ายที่ร้องขอเข้ามาดูภาพเอกซเรย์
 
-# Header 1
-## Header 2
-### Header 3
+#ข้อดีของการนำระบบ PACS มาใช้
+1. ผลดีต่อกระบวนการรักษาพยาบาล
 
-- Bulleted
-- List
+-ลดเวลาในการตรวจและรอคอยผลเอกซเรย์ เนื่องจากการล้างฟิล์มและการค้นหาฟิล์มเก่า
 
-1. Numbered
-2. List
+-ได้รับการวินิจฉัยโรคและได้รับการรักษาพยาบาลเร็วขึ้น
 
-**Bold** and _Italic_ and `Code` text
+-เนื่องจากสามารถเรียกข้อมูลเก่าที่เก็บไว้ในระบบได้ตลอดเวลา ทำให้แพทย์สามารถเปรียบเทียบการเปลี่ยนแปลงของโรคได้ตลอดเวลา ซึ่งจะช่วยให้การวินิจฉัยแม่นยำยิ่งขึ้น และช่วยในการวางแผนการรักษาอย่างต่อเนื่อง
 
-[Link](url) and ![Image](src)
-```
+-ลดปริมาณรังสีที่ผู้ป่วยและบุคลากรทางการแพทย์จะได้รับ เนื่องจากการถ่ายฟิล์มซ้ำที่เกิดจากการตั้งค่าเทคนิคไม่เหมาะสมกับผู้ป่วย
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+2. ประหยัดทรัพยากรและรักษาสิ่งแวดล้อม
 
-### Jekyll Themes
+-ลดอัตราการสูญเสียฟิล์มในการเอกซเรย์ซ้ำ เพราะระบบการถ่ายเอกซเรย์ที่เก็บภาพแบบดิจิตอลทำให้รังสีแพทย์สามารถที่จะทำการปรับค่าความสว่างของภาพได้
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/justpluem/techxray.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+-ลดการสูญหายของฟิล์มเอกซเรย์ที่เกิดขึ้นในระบบเก่า
 
-### Support or Contact
+-ลดการทำลายสิ่งแวดล้อมที่เกิดจากกระบวนการล้างฟิล์ม (น้ำยาล้างฟิล์มและน้ำเสียจากเครื่องล้างฟิล์ม)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out. 
+-ลดพื้นที่ในการจัดเก็บฟิล์มเอกซเรย์
+
+-จะไม่มีการเสื่อมสภาพของภาพรังสี เพราะว่าข้อมูลภาพถ่ายทางรังสีจะถูกเก็บในรูปแบบดิจิตอล
